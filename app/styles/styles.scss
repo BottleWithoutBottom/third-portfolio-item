@@ -142,7 +142,7 @@ i.fas {
 }
 
 .modal-window {
-    display: none;
+    display: block;
     transition: .3s linear;
     opacity: 0;
     position: absolute;
@@ -203,7 +203,7 @@ i.fas {
 .open-hint {
     &::after {
         position: absolute;
-        content: 'lorem  ipsum........'
+        content: 'lorem  ipsum........';
         top: - 30px;
         width: 50px;
         height: 40px;
@@ -875,6 +875,7 @@ i.fas {
                     @include flex(flex, row, flex-start, center);
                     border: 2px solid #f4f4f4;
                     padding: 10px 20px;
+                    padding-left: 0;
                     li.inDepth-cats-item {
                         &:first-child {
                             padding-left: 0;
