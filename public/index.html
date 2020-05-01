@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
+    <link href="styles/styles.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal-window">
+        <div class="modal-window-back"></div>
+            <div class="modal-window-block">
+                <h3 class="modal-window-block__header">Модульная котельная мощностью 300кВт</h3>
+                
+                <div class="modal-window-block-body">
+                        <div class="modal-window-block-body-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>В наличии на складе:</p>
+                            <span>Петропавловск-Камчатский</span>
+                        </div>
+    
+                        <div class="modal-window-block-body-payment">
+                            <i class="far fa-credit-card"></i>
+                            <span>Безналичный рассчет</span>
+                        </div>
+    
+                        <div class="modal-window-block-body-where">
+                            <i class="fas fa-truck"></i>
+                            <span>Самовывоз или доставка ТК до пункта назначения во все регионы</span>
+                        </div>
+    
+                        <form class="modal-window-block-body-product">
+                            <div>
+                                <div class="modal-window-block-body-product-imgwrap">
+                                    <img src="img/machine.png" alt="#">
+                                </div>
+
+                                <div class="modal-window-block-body-product-select">
+                                    <div class="modal-window-block-body-product-select-quantity">
+                                        <button type="submit" class="quantity-selector">-</button>
+                                        <div class="quantity-show">1</div>
+                                        <button type="submit" class="quantity-selector">+</button>
+                                    </div>
+
+                                    <div class="modal-window-block-body-product-select-check">
+                                        <input type="checkbox" class="select-checkbox" id="select-checkbox">
+                                        <label for="select-checkbox" class="select-checkbox-label">Купить в лизинг</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-window-block-body-product-phone">
+                                <input type="text" placeholder="Номер телефона">
+                                <button type="submit" class="special-orange-element-button">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
+
+                        </form>
+                </div>
+            </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="general-info">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+
+                    <div class="location">
+                        <div class="location__place">
+                            <i class="fas fa-map-marker-alt location-marker"></i>
+                            <p class="location-text">Петропавловск-Камчатский</p>
+                        </div>
+                        <div class="work-time">
+                            <p class="time">с 4:00 до 13:00 МСК</p>
+                        </div>
+                    </div>
+
+                    <div class="search">
+                        <input type="text" placeholder="Поиск по сайту" id="search">
+                        <label for="search"><i class="fas fa-search"></i></label> 
+                    </div>
+
+                    <div class="contacts">
+
+                            <div class="contacts-1">
+                                <div class="contacts-logo">
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+    
+                                <div class="contacts-info">
+                                    <p class="contacts-phone">8(3852)33-22-11</p>
+                                    <p class="contacts-mail contacts-subinfo">zakaz@kotel-kvr.su</p>
+                                    <a href="#" class="contacts-link">Написать на email</a>
+                                </div>
+                        </div>
+                        <div class="contacts-2">
+                            <div class="contacts-logo">
+                                <i class="fas fa-mobile"></i>
+                            </div>
+
+                            <div class="contacts-info">
+                                <p class="contacts-phone">8-800-700-15-79</p>
+                                <p class="contacts-subinfo">бесплатно по России</p>
+                                <a href="#" class="contacts-link">Написать на email</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p class="cash">$500</p>
+                    </div>
+                </div>
+                <nav class="header__nav accordionItem close">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#" class="header__nav-link accordionItemLink">Каталог<i class="fas fa-sort-down"></i></a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Цены на продукцию</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Опросные листы</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Контакты</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Виртуальный тур</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">О заводе<i class="fas fa-sort-down"></i></a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Подобрать котел</a></li>
+                    </ul>
+                    
+                    <div class="header__nav-catalog accordionItemContent">
+                        <div class="header__nav-catalog__inner">
+                            <main class="catalog-main">
+                                <nav class="catalog-main-choose">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Паровые котлы
+                                            </a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Водогрейные котлы
+                                            </a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Дымососы и вентиляторы
+                                            </a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Топки
+                                            </a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Модульные котельные
+                                            </a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Паровые котлы
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#" class="black-link">
+                                                Паровые котлы
+                                            </a>
+                                        </li>
+    
+                                    </ul>
+                                </nav>
+
+                                <div class="catalog-main-category">
+                                    <div class="catalog-main-category-1">
+                                        <span class="catalog-main-category-1-header">
+                                            Водогрейные котлы на твердом топливе
+                                        </span>
+                                        <div class="catalog-main-category-1-body">
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="catalog-main-category-1">
+                                        <span class="catalog-main-category-1-header">
+                                            Водогрейные котлы газовые и жидкотопливные
+                                        </span>
+                                        <div class="catalog-main-category-1-body">
+                                            <div class="catalog-main-category-2-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+
+                                            <div class="catalog-main-category-1-body-item">
+                                                <a link href="#" class="black-link">
+                                                    Котел 0,15
+                                                </a>
+                                                <p class="price">151 864 &#8381</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                        
+                                </div>
+                            </main>
+
+                            <footer class="catalog-footer">
+                                <div class="catalog-footer-params">
+                                    <div class="catalog-footer-params-item">
+                                        <i class="fas fa-sliders-h"></i>
+                                        <a href="#">Подобрать мощность котла</a>
+                                    </div>
+
+                                    <div class="catalog-footer-params-item">
+                                        <i class="far fa-credit-card"></i>
+                                        <a href="#">Товары с возможностью покупки в лизинг</a>
+                                    </div>
+
+                                    <div class="catalog-footer-params-item">
+                                        <i class="fas fa-user-astronaut"></i>
+                                        <a href="#">Бесплатная консультация</a>
+                                    </div>
+                                </div>
+
+                                <div class="catalog-footer-bookcall">
+                                    <p>Вопросы при поиске товара? Мы вам перезвоним</p>
+                                    <form method="post" class="sendPhone">
+                                        <input type="text" placeholder="Номер телефона">
+                                        <button type="submit" class="getConsult-send"><i class="fas fa-long-arrow-alt-right"></i></button>
+                                    </form>
+                                </div>
+                            </footer>
+
+                        </div>
+                    </div>
+                </nav>
+                <nav class="pathAndLinks">
+
+                    <ul class="path">
+                        <li class="path-item"><a href="#" class="path-link">Главная</a></li>
+                        <li class="path-item"><a href="#" class="path-link">Каталог</a></li>
+                        <li class="path-item"><a href="#" class="path-link">Категория</a></li>
+                        <li class="path-item"><a href="#" class="path-link">Товар</a></li>  
+                    </ul>
+
+                    <ul class="links">
+                        <li class="links-item"><a href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+                        <li class="links-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="links-item"><a href="#"><i class="fab fa-odnoklassniki-square"></i></a></li>
+                        <li class="links-item"><a href="#"><i class="fab fa-vk"></i></a></li>
+                        <li class="links-item"><a href="#"><i class="fab fa-telegram"></i></a></li>     
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="target">
+        <div class="container">
+            <div class="target__inner">
+                <div class="product-general-info">
+                    <div class="product-general-photo">
+                        <div class="product-general-photo__slide">
+                            <img src="img/machine.png">
+                        </div>
+
+                        <div class="product-general-photo__controller">
+                            <div class="product-general-photo__minified">
+                                <img src="img/machine.png" class="minified-photo minified-photo-active">
+                                <img src="img/machine.png" class="minified-photo">
+                                <img src="img/machine.png" class="minified-photo">
+                            </div>
+                            <div class="product-general-photo__buttons">
+                                <button type="submit" class="product-general-photo__button"><i class="fas fa-long-arrow-alt-right"></i></button>
+                                <button type="submit" class="product-general-photo__button"><i class="fas fa-long-arrow-alt-left"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="product-general-photo__watch-buttons">
+                            <button type="submit" class="product-general-photo__watch-button">
+                                <i class="fas fa-play"></i>
+                                <a href="#">Смотреть видео</a>
+                            </button>
+
+                            <button type="submit" class="product-general-photo__watch-button">
+                                <i class="far fa-image"></i>
+                                <a href="#">Смотреть фото</a>
+                            </button>
+
+                            <button type="submit" class="product-general-photo__watch-button">
+                                <i class="far fa-map"></i>
+                                <a href="#">Смотреть чертёж</a>
+                            </button>
+                        </div>
+
+                        <div class="product-general-photo__capacity">
+                            <p>Не подходит мощность? Подберите необходимую мощность котла в несколько кликов</p>
+                            <img src="img/capacity.png" alt="cap">
+                        </div>
+
+                        <div class="product-general-photo__precize accordionItem">
+                            <button type="button" class="precize-button accordionItemLink">
+                                <span>Уточните ваш запрос, если товар не подходит</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <form class="product-stats accordionItemContent">
+                                    <div class="product-stats__selects">
+                                    <label for="fuel">
+                                        <span>Топливо:</span>
+                                        <select id="fuel" class="product-fuel">
+                                            <option>Дерево</option>
+                                            <option>Газ</option>
+                                            <option>Уголь</option>
+                                        </select>
+                                    </label>
+
+                                    <label for="capacity">
+                                        <span>Мощность:</span>
+                                        <select id="capacity" class="product-capacity">
+                                            <option>2,5 кВт</option>
+                                            <option>2,5 кВт</option>
+                                            <option>2,5 кВт</option>
+                                        </select>
+                                    </label>
+
+                                    <label for="pull">
+                                        <span>Тяга:</span>
+                                        <select id="pull" class="product-pull">
+                                            <option>Уравновешенная</option>
+                                            <option>Не совсем</option>
+                                            <option>Вовсе не</option>
+                                        </select>
+                                    </label>
+                                    </div>
+                                    <button type="button" class="show-more">
+                                         <a href="#">Показать больше подходящих товаров</a>
+                                    </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="product-general-characteristics">
+                        <h1 class="product-general-characteristics__title">
+                            КУПИТЬ КОТЕЛ КВМ-1,1 с ТШПМ
+                        </h1>
+
+                        <div class="product-general-characteristics-get">
+                            <div class="product-general-characteristics-get__where">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>В наличии на складе: <span>Петропавловск-Камчатский</span></p>
+                                <div class="product-general-characteristics-get__card">
+                                    <i class="far fa-credit-card"></i>
+                                    <p>безналичный расчет</p>
+                                </div>
+                            </div>
+
+                            <div class="product-general-characteristics-get__how">
+                                <i class="fas fa-truck"></i>
+                                <p>Самовывоз или доставка ТК до пункта назначения во все регионы</p>
+                            </div>
+                        </div>
+
+                        <div class="product-general-characteristics__payment">
+                            <div class="product-unit">
+                                <div class="product-unit__chars">
+                                    <span>Цена с НДС за котел</span>
+                                    <p>2 300 000 &#8381</p>
+                                </div>
+                                <button class="product-unit__cart special-orange-element-button">
+                                    <a href="#">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                </button>
+                            </div>
+
+                            <div class="product-set">
+                                <div class="product-set__chars">
+                                    <span>За комплект</span>
+                                    <p>2 950 000 &#8381</p>
+                                </div>
+                                <div class="product-set__check">
+                                    <a href="#">Смотреть комплект</a>
+                                </div>
+                                <button type="submit" class="product-set__cart special-orange-element-button">
+                                    <a href="#">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                </button>
+                            </div>
+
+                            <button class="product-stats">
+                                <i class="fas fa-chart-bar"></i>
+                            </button>
+
+                            <button type="submit" class="product-buyButton special-orange-element">
+                                <a href="#">Купить котел КВМ-1,1 с ТШПМ</a>
+                            </button>
+
+                            <div class="product-commerce">
+                                <i class="fas fa-handshake"></i>
+                                <a href="#">Запросить коммерческое предложение</a>
+                            </div>
+                        </div>
+
+                        <div class="product-general-characteristics__buy-methods">
+                            <div class="product-discount">
+                                <i class="fas fa-tags"></i>
+                                <a href="#">Получить скидку у менеджера</a>
+                            </div>
+
+                            <div class="product-putoff">
+                                <div class="product-putoff__text">
+                                    <p>Купите сейчас, платите потом!</p>
+                                </div>
+                                <div class="product-putoff__link">
+                                    <a href="#">
+                                        <i class="far fa-credit-card"></i>
+                                        <span>Купить в лизинг</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                                    
+                        <div class="product-desc">
+                            <p>Котел КВм-1,1 с ТШПМ мощностью 1,1 Гкал (1,28 МВт) для отопительных и промышленных котельных. 
+                                Топливо - твердое, уголь. Завод изготовитель. Низкие цены. Котел КВм-1,1 с ТШПМ мощностью 1,1 Гкал 
+                                (1,28 МВт) для отопительных и промышленных котельных. Топливо - твердое, уголь. Завод изготовитель. 
+                                Низкие цены.</p>
+                        </div> 
+
+                        <div class="product-papers">
+                            <div class="product-paper">
+                                <i class="far fa-file-alt product-paper-icon"></i>
+                                <span>Прайс лист на водогрейный котел</span>
+                            </div>
+
+                            <div class="product-paper">
+                                <i class="far fa-file-alt product-paper-icon"></i>
+                                <span>Опросный лист на водогрейный котел</span>
+                            </div>
+
+                            <div class="product-paper">
+                                <i class="far fa-file-alt product-paper-icon"></i>
+                                <span>Сертификат на водогрейный котел</span>
+                            </div>
+                        </div>
+
+                        <div class="product-usefulInfo">
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            <a href="#" class="usefulInfo-unit">
+                                Технические характеристики
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+
+ 
+    <section class="inDepth-info">
+        <div class="container">
+            <div class="inDepth-info__inner ">
+                <nav class=inDepth-cats>
+                    <ul>
+                        <li class="inDepth-cats-item" >
+                            <a href="#">
+                                Технические характеристики
+                            </a>
+                        </li>
+                        <li class="inDepth-cats-item">
+                            <a href="#">
+                                Комплект доставки
+                            </a>
+                        </li>
+                        <li class="inDepth-cats-item">
+                            <a href="#">
+                                Дополнительно потребуются
+                            </a>
+                        </li>
+                        <li class="inDepth-cats-item">
+                            <a href="#">
+                                Документы
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="inDepth-wrapper">
+                <div class="inDepth-container inDepth-tech inDepth-item active-table">
+                    <div class="inDepth-tech-1">
+                        <table>
+                            <tr>
+                                <td><p>Марка</p></td>
+                                <td><div>
+                                    <span>Котел КВм-1.1 С ТШПМ</span>
+                                    <button type="button" class="inDepth-hint">?</button>
+                                </div></td>
+                            </tr>
+                            <tr>
+                                <td><p>Марка</p></td>
+                                <td><div>
+                                    <span>Котел КВм-1.1 С ТШПМ</span>
+                                    <button type="button" class="inDepth-hint">?</button>
+                                </div></td>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                        </table>
+                    </div>
+
+                    <div class="inDepth-tech-1">
+                        <table>
+                            <tr>
+                                <td><p>Марка</p></td>
+                                <td><div>
+                                    <span>Котел КВм-1.1 С ТШПМ</span>
+                                    <button type="button" class="inDepth-hint">?</button>
+                                </div></td>
+                            </tr>
+                            <tr>
+                                <td><p>Марка</p></td>
+                                <td><div>
+                                    <span>Котел КВм-1.1 С ТШПМ</span>
+                                    <button type="button" class="inDepth-hint">?</button>
+                                </div></td>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Марка</p></td>
+                                    <td><div>
+                                        <span>Котел КВм-1.1 С ТШПМ</span>
+                                        <button type="button" class="inDepth-hint">?</button>
+                                    </div></td>
+                                </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="inDepth-pack inDepth-item">
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                    <div class="inDepth-pack-item">
+                        <p class="pack-item-name">Вентиль Дуду 20</p>
+                        <span class="pack-item-quantity">8 шт.</span>
+                    </div>
+                </div>
+
+                <div class="inDepth-required inDepth-item">
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+
+                    <div class="inDepth-required-item">
+
+                        <div class="inDepth-required-item-look">
+                            <img src="img/meter.png" alt="222">
+                            <div class="inDepth-required-item-title">
+                                <p class="item-name">
+                                    Вентиль Дуду 20
+                                </p>
+                                <span class="item-cost">
+                                    2 300 000 &#8381
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="inDepth-required-item-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quasi?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inDepth-docs inDepth-item">
+                    <div class="inDepth-docs-item">
+                        <i class="far fa-file-alt"></i>
+                        <a href="#">Прайс-лист на водогрейный котел</a>
+                    </div>
+
+                    <div class="inDepth-docs-item">
+                        <i class="far fa-file-alt"></i>
+                        <a href="#">Прайс-лист на водогрейный котел</a>
+                    </div>
+
+                    <div class="inDepth-docs-item">
+                        <i class="far fa-file-alt"></i>
+                        <a href="#">Прайс-лист на водогрейный котел</a>
+                    </div>
+
+                    <div class="inDepth-docs-item">
+                        <i class="far fa-file-alt"></i>
+                        <a href="#">Прайс-лист на водогрейный котел</a>
+                    </div>
+
+                    <div class="inDepth-docs-item">
+                        <i class="far fa-file-alt"></i>
+                        <a href="#">Прайс-лист на водогрейный котел</a>
+                    </div>
+
+                    <div class="inDepth-docs-item">
+                        <i class="far fa-file-alt"></i>
+                        <a href="#">Прайс-лист на водогрейный котел</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-photos">
+        <div class="container">
+            <div class="product-photos__inner">
+                <h2 class="product-photos-title">Фото</h2>
+
+                <div class="product-photos__body">
+                    <div class="product-photos__gallery">
+                        <img src="img/machine-minipic.png" alt="mini">
+                        <img src="img/machine-minipic.png" alt="mini">
+                        <img src="img/machine-minipic.png" alt="mini">
+                        <img src="img/machine-minipic.png" alt="mini">
+                        <img src="img/machine-minipic.png" alt="mini">
+                        <img src="img/machine-minipic.png" alt="mini">
+                    </div>
+
+                    <div class="product-photos__onepic">
+                        <img src="img/machinemain.png" alt="main">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-qualities ">
+        <div class="container">
+            <div class="product-qualities__inner accordionItem">
+                <button class="product-qualities__open slideDown-button accordionItemLink" type="button">
+                    <a href="#">Особенности водогрейного котла КВМ-1.1 с ТШПМ</a>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+
+                <div class="prouct-qualities-info accordionItemContent">
+                    <p class="prouct-qualities-info__desc">
+                        Водогрейный котел КВм 2,5 МВт имеет систему движения потока воды исключающую образование застойных зон, 
+                        перегрев поверхностей нагрева, обеспечивает хороший теплосъем, отсутствие накипи и, следовательно, 
+                        необходимость в водоподготовке. Качественная газоплотная теплоизоляция котла КВм 2,5 
+                        гарантирует максимальное уменьшение потерь тепла через стенки котла и отсутствие присосов холодного 
+                        воздуха в топку, делая процесс горения топлива более интенсивным и эффективным.
+                    </p>
+                    
+                    <div class="product-qualities-advantages">
+                        <p>КПД свыше 80 %, минимальный расход топлива;</p>
+                        <p>компактные размеры;;</p>
+                        <p>быстрый выход на номинальную мощность - 2-4 часа;</p>
+                        <p>запас по мощности 15 %, сверх номинальной;</p>
+                        <p>минимальные требования к качеству питательной воды;</p>
+                        <p>удобные люки для очистки поверхностей нагрева;</p>
+                        <p>заводская гарантия 2 отопительных сезона.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-construction ">
+        <div class="container">
+            <div class="product-construction__inner accordionItem">
+                <button class="product-construction__open slideDown-button accordionItemLink" type="button">
+                    <a href="#">Устройство водогрейного котла КВМ-1,1</a>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+
+                <div class="product-construction__body accordionItemContent">
+                    <p class="product-construction-title">
+                        Водогрейный твердотопливный стальной отопительный котел КВм-1,1 с топкой ТШПМ мощностью 1,1 Гкал (1,28 МВт), 
+                        предназначен для получения горячей воды номинальной температурой на выходе из котла 115 °С рабочим давлением до
+                        0,6 (6,0) МПа (кгс/см), используемой в системах централизованного теплоснабжения на нужды отопления, 
+                        горячего водоснабжения.
+                    </p>
+
+                    <div class="product-construction-main">
+                        <div class="product-construction-scheme">
+                            <img src="img/scheme.png" alt="scheme">
+                            <p class="scheme-title">Схема водогрейного котла</p>
+                        </div>
+
+                        <p class="product-construction-text">
+                            Водогрейные котлы КВм-1,1 Гкал выполнены двухблочными - блок котла и механическая топка ТШПМ-1,45. 
+                            Блок водогрейного котла представляет собой сварную конструкцию, состоящую из трубной системы 
+                            (радиационной и конвективной поверхности нагрева), опорной рамы и каркаса с теплоизоляционными материалами, 
+                            обшитого листовой сталью. Котлы имеют П-образную сомкнутую компоновку. Топочная камера угольных котлов состоит из труб
+                             Ø 57x3,5 мм. Блок водогрейного котла представляет собой сварную конструкцию, состоящую из трубной системы 
+                             Блок водогрейного котла представляет собой сварную конструкцию, состоящую из 
+                             Конвективная поверхность нагрева состоит из пакетов выполненных из труб Ø 57x3,5 мм, для интенсификации теплообмена 
+                             трубы пакетов расположены в шахматном порядке. Газы в конвективной части делают два хода и выходят через газоход в верхней 
+                             части задней стенки котла. Топочная камера водогрейного котла выполнена газоплотной путем плавникового оребрения. В газоплотной 
+                             части котельного блока изоляция выполнена облегченной из плит ПТЭ. В негазоплотной части котельного блока теплоизоляция выполнена 
+                             из муллитокремнеземистого картона и войлока. Обшивка водогрейных котлов выполнена из стальных листов. Для очистки конвективных 
+                             поверхностей нагрева от сажистых и золовых отложений предусмотрены двери.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="buy-bar">
+        <div class="container">
+            <div class="buy-bar__inner">
+                <button type="submit" class="product-buyButton special-orange-element">
+                    <a href="#">Купить котел КВМ-1,1 с ТШПМ</a>
+                </button>
+
+                <div class="product-commerce">
+                    <i class="fas fa-handshake"></i>
+                    <a href="#">Запросить коммерческое предложение</a>
+                </div>
+                
+                <div class="product-unit">
+                    <div class="product-unit__chars">
+                        <span>Цена с НДС за котел</span>
+                        <p>2 300 000 &#8381</p>
+                    </div>
+                    <button class="product-unit__cart special-orange-element-button-small">
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </button>
+                </div>
+
+                <div class="product-set">
+                    <div class="product-set__chars">
+                        <span>За комплект</span>
+                        <p>2 950 000 &#8381</p>
+                    </div>
+                    <div class="product-set__check">
+                        <a href="#">Смотреть комплект</a>
+                    </div>
+                    <button type="submit" class="product-set__cart special-orange-element-button-small">
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-alike">
+        <div class="container">
+            <div class="product-alike__inner">
+
+                <nav class="product-alike-headers">
+                    <h2 class="product-alike-header">
+                        Похожие товары
+                    </h2>
+                    <div class="product-alike-controllers">
+                        <button type="button" class="alike-controller alike-controller-left">
+                            <img src="img/arrow-left.png" alt="left">
+                        </button>
+                        <button type="button" class="alike-controller alike-controller-right">
+                            <img src="img/arrow-right.png" alt="right">
+                        </button>
+                    </div>
+                </nav>
+
+                <div class="product-alike-line">
+                    <div class="product-alike-item">
+                        <img src="img/steel.png" alt="steel">
+                        <div class="product-alike-info">
+                            <p class="product-alike-name">Вентиль Ду 20</p>
+                            <span class="product-alike-quantity">8 шт</span>
+                            <span class="product-alike-price">2 300 000 &#8381</span>
+                        </div>
+                    </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+
+                        <div class="product-alike-item">
+                            <img src="img/steel.png" alt="steel">
+                            <div class="product-alike-info">
+                                <p class="product-alike-name">Вентиль Ду 20</p>
+                                <span class="product-alike-quantity">8 шт</span>
+                                <span class="product-alike-price">2 300 000 &#8381</span>
+                            </div>
+                        </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="youtube-section">
+        <div class="container">
+            <div class="youtube-section__inner">
+                <div class="video">
+                    <div class="video-wrapper"></div>
+                    <iframe class="video-block" src="https://www.youtube.com/embed/MwD_tZGc7gA"  
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        
+                <div class="more-videos">
+                    <div class="more-videos-header">
+                        <h3 class="more-videos-title">Еще больше видео на нашем канале</h3>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+        
+                    <div class="more-videos-body">
+                        <div class="more-videos-desc">
+                            <p>
+                                Мы делаем котлы с 2003 года, более 15 лет. В начале своего пути наименование завода было РОСЭНЕРГОПРОМ. 
+                                Наше оборудование успешно работает практически во всех регионах России от Крыма до Камчатки, на территории 
+                                соседних государств Казахстана, Белоруссии, Монголии, Литвы. На нашем канале на ЮТУБ можно посмотреть 
+                                как происходит на нашем заводе изготовление котлов и модульных МКУ.
+                            </p>
+                        </div>
+                        <div class="more-videos-footer">
+                            <a href="#">Перейти на youtube канал</a>
+                            <button type="button" class="to-youtube">
+                                <img src="img/arrow-right.png" alt="moveToYT" class="to-youtube-arrow">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="choice-product">
+        <div class="container">
+            <div class="choice-product__inner">
+                <form class="choice-product-form" method="post">
+                    <h2 class="choice-product-title">Подберите котел для своих целей</h2>
+                    <div class="choice-product-body">
+                        <div class="choice-product-item">
+                            <label for="building-type">
+                                <p>Тип здания</p>
+                                <a href="#" class="choice-product-hint">?</a>
+                            </label>
+                            <select class="choice-product-item__select">
+                                <option><p>Административные здания</p></option>
+                            </select>
+                        </div>
+
+                        <div class="choice-product-item">
+                            <label for="building-type">
+                                <p>Тип здания</p>
+                                <a href="#" class="choice-product-hint">?</a>
+                            </label>
+                            <select class="choice-product-item__select">
+                                <option><p>Административные здания</p></option>
+                            </select>
+                        </div>
+
+                        <div class="choice-product-item">
+                            <label for="building-type">
+                                <p>Тип здания</p>
+                                <a href="#" class="choice-product-hint">?</a>
+                            </label>
+                            <select class="choice-product-item__select">
+                                <option><p>Административные здания</p></option>
+                            </select>
+                        </div>
+
+                        <div class="choice-product-item">
+                            <label for="building-type">
+                                <p>Тип здания</p>
+                            </label>
+                            <select class="choice-product-item__select">
+                                <option><p>Административные здания</p></option>
+                            </select>
+                        </div>
+
+                        <div class="choice-product-item cellar">
+                            <input type="checkbox" class="hasCellar" id="hasCellar">
+                            <label for="hasCellar">Есть отапливаемый подвал</label>
+                        </div>
+
+                        <button type="button" class="show-relevant-product">
+                            <a href="#">Показать подходящие котлы</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <article class="articles">
+        <div class="container">
+            <div class="articles__inner">
+                <section class="article article-1">
+                    <div class="article-image"></div>
+                    <div class="article-text article-preparing">
+                        <a href="#">Подготовка котла к эксплуатации</a>
+                    </div>
+                </section>
+
+                <section class="article article-2">
+                    <div class="article-image"></div>
+                    <div class="article-text article-working">
+                        <a href="#">Ввод котла в эксплуатацию</a>
+                    </div>
+                </section>
+
+                <section class="article article-3">
+                    <h3 class="articles-title">Статьи о котлах</h3>
+
+                    <div class="article-3-body">
+                        <a href="#" class="article-link">Подключение котла к системе</a>
+                        <a href="#" class="article-link">Подключение котла к системе</a>
+                        <a href="#" class="article-link">Подключение котла к системе</a>
+                    </div>
+
+                    <footer class="article-3-footer">
+                        <button type="button" class="more-articles">
+                            <a href="#" class="more-articles-link">
+                                Смотреть все статьи
+                            </a>
+                            <img src="img/arrow-right.png" alt="#">
+                        </button>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </article>
+
+
+    <div class="getConsult">
+        <div class="container">
+            <div class="getConsult__inner">
+                <p class="getConsult-info">Если у вас возникли вопросы по характеристикам или комплектации, 
+                    оставьте номер вашего телефона и мы проконсультируем вас</p>
+                <form method="post" class="sendPhone">
+                    <input type="text" placeholder="Номер телефона">
+                    <button type="submit" class="getConsult-send"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <article class="virtual-tours">
+        <div class="container">
+            <div class="virtual-tours__inner">
+                <section class="virtual-tours-item-promo virtual-tours-item">
+                    <p>Посмотрите виртуальные туры по заводу и модульной котельной</p>
+                </section>
+
+                <section class="virtual-tours-item-1 virtual-tours-item">
+                    <div class="virtual-tours-item-1-bg">
+
+                    </div>
+                    <div class="virtual-tours-item-1-link">
+                        <a href="#">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                        <p>Виртуальный тур по заводу</p>
+                    </div>
+                </section>
+
+                <section class="virtual-tours-item-2 virtual-tours-item">
+                     <div class="virtual-tours-item-2-bg">
+
+                    </div>
+
+                    <div class="virtual-tours-item-2-link">
+                        <a href="#">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                        <p>Виртуальный тур по котельной</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </article>
+
+    <article class="awards">
+
+        <div class="container">
+            <div class="awards__inner">
+                <div class="awards-3">
+                    <div class="awards-3-item">
+                        <h3 class="awards-3-item-title">Патенты</h3>
+                        <div class="awards-3-item-body">
+                            <p class="awards-3-item-body-text">
+                                Задача организации, в особенности же постоянный количественный рост и сфера нашей активности 
+                                представляет собой
+                            </p>
+                            <div class="awards-3-item-body-pictures">
+                                <img src="img/award.png" alt="#">
+                                <img src="img/award.png" alt="#">
+                            </div>
+                        </div>
+
+                        <footer class="awards-3-item-footer">
+                            <div class="awards-3-item-footer-controller">
+                                <a href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
+                                <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+
+                            <a href="#" class="awards-3-item-footer-more underlined-link">
+                                Смотреть все
+                            </a>
+                        </footer>
+                    </div>
+
+                    <div class="awards-3-item">
+                        <h3 class="awards-3-item-title">Патенты</h3>
+                        <div class="awards-3-item-body">
+                            <p class="awards-3-item-body-text">
+                                Задача организации, в особенности же постоянный количественный рост и сфера нашей активности 
+                                представляет собой
+                            </p>
+                            <div class="awards-3-item-body-pictures">
+                                <img src="img/award.png" alt="#">
+                                <img src="img/award.png" alt="#">
+                            </div>
+                        </div>
+
+                        <footer class="awards-3-item-footer">
+                            <div class="awards-3-item-footer-controller">
+                                <a href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
+                                <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+
+                            <a href="#" class="awards-3-item-footer-more underlined-link">
+                                Смотреть все
+                            </a>
+                        </footer>
+                    </div>
+
+                    <div class="awards-3-item">
+                        <h3 class="awards-3-item-title">Патенты</h3>
+                        <div class="awards-3-item-body">
+                            <p class="awards-3-item-body-text">
+                                Задача организации, в особенности же постоянный количественный рост и сфера нашей активности 
+                                представляет собой
+                            </p>
+                            <div class="awards-3-item-body-pictures">
+                                <img src="img/award.png" alt="#">
+                                <img src="img/award.png" alt="#">
+                            </div>
+                        </div>
+
+                        <footer class="awards-3-item-footer">
+                            <div class="awards-3-item-footer-controller">
+                                <a href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
+                                <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+
+                            <a href="#" class="awards-3-item-footer-more underlined-link">
+                                Смотреть все
+                            </a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="awards-2">
+                    <div class="awards-2-item">
+                        <div class="awards-2-item-main">
+                            <h3 class="awards-2-item-main-title">
+                                Благодарственные письма
+                            </h3>
+                            <p class="awards-2-item-main-text">
+                                Задача организации, в особенности же постоянный количественный рост и сфера нашей активности 
+                                представляет собой
+                            </p>
+
+                            <footer class="awards-2-item-main-footer">
+                                <div class="awards-2-item-main-footer-controller">
+                                    <a href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
+                                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+
+                                <a href="#" class="awards-2-item-main-footer-more underlined-link">
+                                    Смотреть все
+                                </a>
+                            </footer>
+
+                        </div>
+                        <img src="img/award.png" class="awards-2-item-pic">
+                    </div>
+
+                    <div class="awards-2-item">
+                        <div class="awards-2-item-main">
+                            <h3 class="awards-2-item-main-title">
+                                Благодарственные письма
+                            </h3>
+                            <p class="awards-2-item-main-text">
+                                Задача организации, в особенности же постоянный количественный рост и сфера нашей активности 
+                                представляет собой
+                            </p>
+
+                            <footer class="awards-2-item-main-footer">
+                                <div class="awards-2-item-main-footer-controller">
+                                    <a href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
+                                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+
+                                <a href="#" class="awards-2-item-main-footer-more underlined-link">
+                                    Смотреть все
+                                </a>
+                            </footer>
+
+                        </div>
+                        <img src="img/award.png" class="awards-2-item-pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <div class="insta">
+        <div class="insta-gray-line"></div>
+        <div class="container">
+            <div class="insta__inner">
+                <h2 class="insta-title">
+                    <p>наш</p>
+                    <img src="img/insta.png" alt="1">
+                </h2>
+
+                <div class="insta-content">
+                    <div class="insta-content-sub">
+                        <p class="insta-content-sub-text">
+                            Транспортеры СКИП применяются для перемещения угля в вертикальном и круто наклонном положении, 
+                            с места хранения угля в бункер водогрейного котла, в стационарных котельных, модульных котельных 
+                            МКУ и транспортабельных котельных КМТ. Ознакомится с ассортиментом и характеристиками 
+                            Вы можете в каталоге товара: http://www.kvzr.ru/skip-hoists.html
+                        </p>
+
+                        <div class="insta-content-sub-links">
+                            <p>Другие наши страницы</p>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-vk"></i>
+                            <i class="fab fa-odnoklassniki-square"></i>
+                        </div>
+                    </div>
+
+                    <div class="insta-content-photos">
+                        <div class="insta-content-photos-list">
+                            <div class="img-block">
+                                <img src="img/machine-minipic.png" alt="#">
+                            </div>
+
+                            <div class="img-block">
+                                <img src="img/machine-minipic.png" alt="#">
+                            </div>
+
+                            <div class="img-block">
+                                <img src="img/machine-minipic.png" alt="#">
+                            </div>
+
+                            <div class="img-block">
+                                <img src="img/machine-minipic.png" alt="#">
+                            </div>
+
+                            <div class="img-block">
+                                <img src="img/machine-minipic.png" alt="#">
+                            </div>
+
+                            <div class="img-block">
+                                <img src="img/machine-minipic.png" alt="#">
+                            </div>
+                        </div>
+
+                        <div class="insta-content-photos-desc">
+                            <p class="insta-content-photos-desc-text">
+                                Транспортеры СКИП применяются для перемещения угля в вертикальном и круто наклонном положении, 
+                                с места хранения угля в бункер водогрейного котла, в стационарных котельных, модульных котельных МКУ и транспортабельных 
+                                котельных КМТ. Ознакомится с ассортиментом и характеристиками Вы можете в каталоге товара: http://www.kvzr.ru/skip-hoists.html 
+                                Завод изготовитель скиповых подъемникив http://www.kvzr.ru/ Транспортеры СКИП применяются для перемещения угля в вертикальном и 
+                                круто наклонном положении, с места хранения угля в
+                            </p>
+
+                            <div class="insta-content-photos-desc-subscribe">
+                                <div class="subscribe-img">
+                                    <img src="img/machine-minipic.png" alt="#">
+                                </div>
+
+                                <div class="subscribe-block">
+                                    <h3 class="subscribe-block__header">Котельный завод "РЕП"</h3>
+
+                                    <div class="subscribe-block-desc">
+                                        <p class="subscribe-block-desc-text">Завод паровых и водогрейных котлов,модульных 
+                                        котельных и вспомогательного оборудования</p>
+                                        
+                                        <button type="submit" class="subscribe-button">Подписаться</button>
+                                            
+                                    </div>
+                                </div>
+                            </h3>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"></script>
+    <script src="js/slideDown.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/hints.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
